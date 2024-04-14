@@ -1,6 +1,6 @@
 # Deep-Voice-Recognition
 
-Все основные функции находятся в [DeepVoice.ipynb](https://github.com/Allfeeto/Deep-Voice-Recognition/DeepVoice.ipynb). 
+Все основные функции находятся в [DeepVoice.ipynb](DeepVoice.ipynb). 
 Рекомендуется открывать в Google Collab.
 
 
@@ -31,7 +31,7 @@
 
 ## 1 способ - StreamLit
 
-1. Откройте [Python файл](https://github.com/Allfeeto/Deep-Voice-Recognition/main.py) с помощью IDE, которое присутствует на вашем пк 
+1. Откройте [Python файл](main.py) с помощью IDE, которое присутствует на вашем пк 
 2. В командрой строке поочередно вводим:
 ```
 pip install streamlit
@@ -54,11 +54,11 @@ streamlit run main.py
 
 ## 2 способ - Google Collab
 
-1. Скопируйте [DeepVoice.ipynb](https://github.com/Allfeeto/Deep-Voice-Recognition/DeepVoice.ipynb) к себе в Google Collab.
+1. Скопируйте [DeepVoice.ipynb](DeepVoice.ipynb) к себе в Google Collab.
    *Желательно использовать среду разработки Т4 (для обучения модели).
-2. Добавьте в зависимости от цели: датасеты с аудио и [scaler.joblib](https://github.com/Allfeeto/Deep-Voice-Recognition/scaler.joblib) для **проверки файлов** или для создания данных для обучения / Модель / датасет для обучения модели (нами использовались
-   [FullData1.csv](https://github.com/Allfeeto/Deep-Voice-Recognition/FullData1.csv) либо 
-   [FullData1-Hight.csv](https://github.com/Allfeeto/Deep-Voice-Recognition/FullData1-Hight.csv)).
+2. Добавьте в зависимости от цели: датасеты с аудио и [scaler.joblib](scaler.joblib) для **проверки файлов** или для создания данных для обучения / Модель / датасет для обучения модели (нами использовались
+   [FullData1.csv](FullData1.csv) либо 
+   [FullData1-Hight.csv](FullData1-Hight.csv)).
    
    *Можно поставить на проверку один аудиофайл или столько, сколько нужно. Код быстро проверяет все аудио в конкретной папке, путь к которой прописывается. 
 4. Запускайте нужные вам учатки кода.
