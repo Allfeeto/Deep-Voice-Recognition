@@ -54,7 +54,14 @@ streamlit run main.py
 
 ## 2 способ - Google Collab
 
-1. Скопируйте [DeepVoice.ipynb](https://github.com/Allfeeto/Deep-Voice-Recognition/DeepVoice.ipynb) к себе в коллаб, запускайте нужные части кода
+1. Скопируйте [DeepVoice.ipynb](https://github.com/Allfeeto/Deep-Voice-Recognition/DeepVoice.ipynb) к себе в Google Collab.
+   *Желательно использовать среду разработки Т4 (для обучения модели).
+2. Добавьте в зависимости от цели: датасеты с аудио для **проверки файлов** или для создания данных для обучения / Модель / датасет для обучения модели (нами использовались
+   [FullData1.csv](https://github.com/Allfeeto/Deep-Voice-Recognition/FullData1.csv) либо 
+   [FullData1-Hight.csv](https://github.com/Allfeeto/Deep-Voice-Recognition/FullData1-Hight.csv)).
+3. Запускайте нужные вам учатки кода.
+   
+   
 
 
 
